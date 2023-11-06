@@ -1,0 +1,48 @@
+/* Cards.css (or your CSS file) */
+
+/* Make the navigation bar fixed when scrolling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* Change the background color as needed */
+  z-index: 100; 
+ height: 50px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 40px; /* Adjust the value as needed for the desired spacing */
+  }
+  
+  /* Alternatively, you can use padding to add space */
+  .navbar-nav .nav-item {
+    padding-right: 50px; /* Adjust the value as needed for the desired spacing */
+  }
+ 
+ 
+  .nav-link{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  .nav-link.brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(22, 22, 212);
+  }
+  .nav-link:hover{
+    color: blue;
+    text-decoration: underline;
+    transform: scale(1.06);
+    transition: all 300ms ease-in;
+  }
+.dropdown {
+  position: absolute;
+  right: 40px; 
+}
+
+/* Ensure the dropdown menu stays within the viewport */
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
